@@ -17,9 +17,10 @@ def add_markdown(text):
 
 
 add_title('Coding stories about people living with HIV/AIDS')
+st.image('hiv.jpg',caption = 'source: capaian-temuan-hiv-aids-di-sragen-tembus-105-odha-diminta-terbuka-1851896', width = 700)
 write_content('Analyze 6 Personal stories (short) from people living with HIV')
 add_markdown('**Research question**: understanding experiences and the perceptions of HIV-positive people')
-add_markdown("[Text data]: https://pozhet.org.au/living-with-hiv/personal-stories/")
+add_markdown("[Text data](https://pozhet.org.au/living-with-hiv/personal-stories/)")
 
 add_markdown('***Coding ledgends***')
 add_markdown(''':orange[symptoms]  
